@@ -1,0 +1,47 @@
+<button type="button" class="btn" mat-raised-button color="primary" (click)="OwnerSuccess()" routerLink="/owner/ownerlanding" >Back</button>
+<div class="main">
+    <h2 style="text-align:center ;">Sign up to create an account</h2>
+    <form [formGroup]="signUpForm!" autocomplete="off" >
+                <label for="">Name</label><br>
+            <input type="text" formControlName="userName" placeholder="Enter your name"><br>
+            
+            <span *ngIf="!signUpForm.get('userName')?.touched">Enter you Name</span>
+            
+            <span class="error-msg" *ngIf="signUpForm.get('userName')?.touched && 
+            signUpForm.get('userName')?.errors?.['required']  ">Name is reuired</span>
+            <span class="error-msg" *ngIf="signUpForm.get('userName')?.errors?.['isValid']">Name is invalid</span>
+            <span class="error-msg" *ngIf="signUpForm.get('userName')?.errors?.['whiteSpaces'] && signUpForm.get('userName')?.touched">Name is invalid....</span>
+            <span class="error-msg" *ngIf="signUpForm.get('userName')?.touched && 
+           
+            signUpForm.get('userName')?.errors?.['maxlength']">maxlength for name allowed is 5</span>
+            <br>
+    
+            <label>Mobile No</label><br>
+            <input type="text" formControlName="userMob" maxlength="10" appNumbersonly placeholder="Enter your mobile"><br><br>
+    
+            <label>Enter Email<label><br>
+                <input  type="text" formControlName="userEmail" placeholder="Enter your email"><br><br>
+                
+                <label>Enter Password<label><br>
+                <input type="password" formControlName="userPass" placeholder="Enter password"><br><br>
+                
+        
+    
+            
+     
+            <label for="" >Gender</label><br>
+            <input type="radio" formControlName="gender" value="male">Male<br>
+            <input type="radio" formControlName="gender" value="female">Female<br><br>
+            <label for="">Hobbies</label><br>
+            <input type="checkbox" formControlName="painting" >Painting<br>
+            <input type="checkbox"  formControlName="dancing">Dancing<br>
+            <input type="checkbox" formControlName="userCheck">Please accept terms and conditions <br>
+
+            <button [disabled]="!signUpForm.valid" class="btn" (click)="submitFormData(signUpForm.value)">Submit</button> 
+            <div style="text-align: center;">Already have member?<a routerLink="/signin"> Sign in here </a> </div>
+         
+    
+     <!-- </form>
+</div>     -->
+
+

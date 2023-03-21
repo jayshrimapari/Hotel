@@ -1,0 +1,35 @@
+
+
+<button type="button" class="btn" mat-raised-button color="primary" (click)="OwnerSuccess()" routerLink="/owner/ownerlanding" >Back</button>
+<div class="main">
+<h1>Hotel List</h1>
+<table border="2px black">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>User Name</th>
+            <th>Hotel Name</th>
+            <th>Hotel Address</th>
+            <th>Hotel Menu</th>
+            <th>Room Available </th>
+            <th>Hotel Mobile</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of apidata">
+            <td>{{data.id}}</td>
+            <td>{{data.userName}}</td>
+            <td>{{data.hotelName}}</td>
+            <td>{{data.hotelAddress}}</td>
+            <td>{{data.hotelMenu}}</td>
+            <td>{{data.roomAvailable}}</td>
+            <td>{{data.hotelMobile}}</td>
+         <td><mat-icon (click)="deleteData()">delete</mat-icon></td>  
+            <!-- <span class="material-icons">delete</span> -->
+
+        </tr>
+    </tbody>
+</table>
+</div>
+

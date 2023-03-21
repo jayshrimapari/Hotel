@@ -1,0 +1,509 @@
+{
+  "admin": [
+    {
+      "userName": "Jayshri",
+      "userMob": "8010285201",
+      "userEmail": "jayshrimapari@gmail.com",
+      "userpassward": "12345678",
+      "gender": "female",
+      "id": 1
+    },
+    {
+      "userName": "yogeshwar",
+      "userMob": "9823826537",
+      "userEmail": "yogeshwar@gmail.com",
+      "userPass": "yogeshwa",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 2
+    },
+    {
+      "userName": "ravindra",
+      "userMob": "8899776546",
+      "userEmail": "ravindramapari@gmail.com",
+      "userPass": "ravindra",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 3
+    },
+    {
+      "userName": "mahesh",
+      "userMob": "8080102030",
+      "userEmail": "maheshmapari@gmail.com",
+      "userPass": "mahesh",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 4
+    },
+    {
+      "userName": "jayu",
+      "userMob": "7766554467",
+      "userEmail": "jayumapari@gmail.com",
+      "userPass": "jayu12",
+      "gender": "female",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 5
+    },
+    {
+      "userName": "anil",
+      "userMob": "9423394363",
+      "userEmail": "anilmapari@gmail.com",
+      "userPass": "anil@123",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 6
+    },
+    {
+      "userName": "yash",
+      "userMob": "8856748389",
+      "userEmail": "yashmapari@gmail.com",
+      "userPass": "yash@`12",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 7
+    },
+    {
+      "userName": "sakshi",
+      "userMob": "7709308414",
+      "userEmail": "sakshimapari@gmail.com",
+      "userPass": "sakshi@1",
+      "gender": "female",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 8
+    },
+    {
+      "userName": "Yogeshwar",
+      "userMob": "9080706050",
+      "userEmail": "yogeshwarbhokare@gmail.com",
+      "userPass": "yogeshwa",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 9
+    },
+    {
+      "userName": "sai",
+      "userMob": "8090706050",
+      "userEmail": "mahesh@123",
+      "userPass": "mahesh",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 10
+    },
+    {
+      "userName": "jayu",
+      "userMob": "7766554433",
+      "userEmail": "jayu@gmail.com",
+      "userPass": "mahesh",
+      "gender": "female",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 11
+    },
+    {
+      "userName": "shraddha",
+      "userMob": "7768899475",
+      "userEmail": "shraddhamapri@gmail.com",
+      "userPass": "mahesh",
+      "gender": "female",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 12
+    },
+    {
+      "userName": "mahesh",
+      "userMob": "8097655454",
+      "userEmail": "maheshmapari@gmail.com",
+      "userPass": "mahesh",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 13
+    }
+  ],
+  "owner": [
+    {
+      "userName": "Jayshri",
+      "userMob": "8010285201",
+      "userEmail": "jayshrimapari@gmail.com",
+      "userpassward": "12345678",
+      "gender": "female",
+      "id": 2
+    },
+    {
+      "userName": "ravindra",
+      "userMob": "8899776546",
+      "userEmail": "ravindramapari@gmail.com",
+      "userPass": "ravindra",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 3
+    },
+    {
+      "userName": "mahesh",
+      "userMob": "8080102030",
+      "userEmail": "maheshmapari@gmail.com",
+      "userPass": "mahesh",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 4
+    },
+    {
+      "userName": "jayu",
+      "userMob": "7766554467",
+      "userEmail": "jayumapari@gmail.com",
+      "userPass": "jayu12",
+      "gender": "female",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 5
+    },
+    {
+      "userName": "sakshi",
+      "userMob": "7709308414",
+      "userEmail": "sakshimapari@gmail.com",
+      "userPass": "sakshi@1",
+      "gender": "female",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 6
+    },
+    {
+      "userName": "Yogeshwar",
+      "userMob": "9080706050",
+      "userEmail": "yogeshwarbhokare@gmail.com",
+      "userPass": "yogeshwa",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 7
+    },
+    {
+      "userName": "sai",
+      "userMob": "8090706050",
+      "userEmail": "mahesh@123",
+      "userPass": "mahesh",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 8
+    },
+    {
+      "userName": "jayu",
+      "userMob": "7766554433",
+      "userEmail": "jayu@gmail.com",
+      "userPass": "mahesh",
+      "gender": "female",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 9
+    },
+    {
+      "userName": "jayshri",
+      "userMob": "8010285201",
+      "userEmail": "jayshrimapari@gmail.com",
+      "userPass": "123456",
+      "gender": "female",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 10
+    }
+  ],
+  "user": [
+    {
+      "userName": "Jayshri",
+      "userMob": "8010285201",
+      "userEmail": "jayshrimapari@gmail.com",
+      "userpassward": "12345678",
+      "gender": "female",
+      "id": 3
+    },
+    {
+      "userName": "jayu",
+      "userMob": "7766554467",
+      "userEmail": "jayumapari@gmail.com",
+      "userPass": "jayu12",
+      "gender": "female",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 4
+    },
+    {
+      "userName": "Yogeshwar",
+      "userMob": "9080706050",
+      "userEmail": "yogeshwarbhokare@gmail.com",
+      "userPass": "yogeshwa",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 5
+    },
+    {
+      "userName": "sai",
+      "userMob": "8090706050",
+      "userEmail": "mahesh@123",
+      "userPass": "mahesh",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 6
+    },
+    {
+      "userName": "ravi",
+      "userMob": "8899098765",
+      "userEmail": "ravi@gmail.com",
+      "userPass": "ravi12",
+      "gender": "male",
+      "userCheck": true,
+      "painting": true,
+      "dancing": true,
+      "id": 7
+    },
+    {
+      "userName": "jayshri",
+      "userMob": "7709308414",
+      "userEmail": "jayshrimapari@gmail.com",
+      "userPass": "mahesh",
+      "gender": "female",
+      "userCheck": true,
+      "id": 8
+    }
+  ],
+  "hotelDetails": [
+    {
+      "id": 1,
+      "userName": "Sai",
+      "hotelName": "Sai Palkhi",
+      "hotelAddress": "Shirdi",
+      "hotelMenu": "Rice",
+      "roomAvailable": "01",
+      "hotelMobile": 7020206544
+    },
+    {
+      "id": 2,
+      "userName": "Jayshri Mapari",
+      "hotelName": "Matoshri",
+      "hotelAddress": "Sambhajinagar",
+      "hotelMenu": "Paneer",
+      "roomAvailable": "02",
+      "hotelMobile": 8010206547
+    },
+    {
+      "id": 3,
+      "userName": "Yogeshwar Bhokare",
+      "hotelName": "Swami Samrth",
+      "hotelAddress": "Vaijapur",
+      "hotelMenu": "Biryani",
+      "roomAvailable": "03",
+      "hotelMobile": 7020206544
+    },
+    {
+      "id": 4,
+      "userName": "mayuri Mulay",
+      "hotelName": "Raj",
+      "hotelAddress": "Alibag",
+      "hotelMenu": "Khichdi",
+      "roomAvailable": "04",
+      "hotelMobile": 772066206544
+    },
+    {
+      "id": 5,
+      "userName": "Ravindra Mapari",
+      "hotelName": "Vrundhavan",
+      "hotelAddress": "Pune",
+      "hotelMenu": "Kaju Carry",
+      "roomAvailable": "05",
+      "hotelMobile": 7720409544
+    },
+    {
+      "id": 6,
+      "userName": "Shraddha Mapari",
+      "hotelName": "Vrundhavan",
+      "hotelAddress": "nashik",
+      "hotelMenu": "paneer Carry",
+      "roomAvailable": "06",
+      "hotelMobile": 8820409522
+    },
+    {
+      "id": 7,
+      "userName": "Sakshi Mapari",
+      "hotelName": "Taj hotel",
+      "hotelAddress": "Jalgaon",
+      "hotelMenu": "Pulav",
+      "roomAvailable": "07",
+      "hotelMobile": 7720409544
+    },
+    {
+      "id": 8,
+      "userName": "Mahesh Mapari",
+      "hotelName": "Rama",
+      "hotelAddress": "Jalna",
+      "hotelMenu": "Soyabin",
+      "roomAvailable": "08",
+      "hotelMobile": 8820409522
+    },
+    {
+      "id": 9,
+      "userName": "Pratiksha Khokle",
+      "hotelName": "Rajstani",
+      "hotelAddress": "Pune",
+      "hotelMenu": "MixVage",
+      "roomAvailable": "09",
+      "hotelMobile": 7220409542
+    },
+    {
+      "id": 10,
+      "userName": "Pratik Khokle",
+      "hotelName": "Anusaya",
+      "hotelAddress": "Satara",
+      "hotelMenu": "Chicken",
+      "roomAvailable": "10",
+      "hotelMobile": 8820409522
+    },
+    {
+      "id": 11,
+      "userName": "Monali Thete",
+      "hotelName": "Sai Niwara",
+      "hotelAddress": "Shirdi",
+      "hotelMenu": "Misal",
+      "roomAvailable": "11",
+      "hotelMobile": 8420409542
+    },
+    {
+      "id": 12,
+      "userName": "Nikita Shinde",
+      "hotelName": "Royel",
+      "hotelAddress": "Hydrabad",
+      "hotelMenu": "Vage-Biryani",
+      "roomAvailable": "12",
+      "hotelMobile": 8820409522
+    },
+    {
+      "id": 13,
+      "userName": "Monika Mhaske",
+      "hotelName": "Parnpara",
+      "hotelAddress": "Newasa",
+      "hotelMenu": "Idli Sambar",
+      "roomAvailable": "13",
+      "hotelMobile": 8420809599
+    },
+    {
+      "id": 15,
+      "userName": "AArti ugale",
+      "hotelName": "Swadishta",
+      "hotelAddress": "Kolhapur",
+      "hotelMenu": "Veg Thali",
+      "roomAvailable": "15",
+      "hotelMobile": 8820409542
+    },
+    {
+      "id": 16,
+      "userName": "Vaishnvi Shinde",
+      "hotelName": "Royel hotel",
+      "hotelAddress": "Guvahati",
+      "hotelMenu": "Sup",
+      "roomAvailable": "16",
+      "hotelMobile": 8820409522
+    },
+    {
+      "id": 17,
+      "userName": "Poonam Shinde",
+      "hotelName": "MAZa",
+      "hotelAddress": "Guvahati",
+      "hotelMenu": "Maggi",
+      "roomAvailable": "17",
+      "hotelMobile": 8820409522
+    }
+  ],
+  "hotelbooking": [
+    {
+      "userName": "Yogeshwar",
+      "userAddress": "Sambhajinagar",
+      "bookingAmount": "1000",
+      "userPass": "12345678",
+      "id": 1
+    },
+    {
+      "userName": "jayshri",
+      "userAddress": "sambhajinagr",
+      "bookingAmount": "1000",
+      "userPass": "1234567",
+      "id": 2
+    },
+    {
+      "userName": "yogeshwar",
+      "userAddress": "sambhajinagar",
+      "bookingAmount": "1000",
+      "userPass": "123456",
+      "id": 3
+    },
+    {
+      "userName": "Kriti",
+      "userAddress": "mumbai",
+      "bookingAmount": "1000",
+      "userPass": "123456",
+      "id": 4
+    },
+    {
+      "userName": "jayshri",
+      "userAddress": "mumbai",
+      "bookingAmount": "1000",
+      "userPass": "12345",
+      "id": 5
+    },
+    {
+      "userName": "sai",
+      "userAddress": "shirdi",
+      "bookingAmount": "1000",
+      "userPass": "1234",
+      "id": 6
+    },
+    {
+      "userName": "sai",
+      "userAddress": "shirdi",
+      "bookingAmount": "1000",
+      "userPass": "12345",
+      "id": 7
+    },
+    {
+      "userName": "tata",
+      "userAddress": "pune",
+      "bookingAmount": "1000",
+      "userPass": "234",
+      "id": 8
+    }
+  ]
+}

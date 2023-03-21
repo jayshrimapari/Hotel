@@ -1,0 +1,40 @@
+<button type="button" class="btn" mat-raised-button color="accent" (click)="OwnerSuccess()" routerLink="/owner/ownerlanding" >Back</button>
+<div class="main">
+    <h1 *ngIf="newRegistration" style="text-align:center ;"><b>Register Here</b></h1>
+    <h1 *ngIf="!newRegistration" style="text-align:center ;"><b>Update Hotel Details Here</b></h1>
+    <form [formGroup]="regitrationForm!" >
+            <label>User Name </label><br>
+            <input  type="text" formControlName="userName" placeholder="Enter user name"><br><br>
+            
+        
+            <label>Hotel Name</label><br>
+            <input matInput type="text" formControlName="hotelName" placeholder="Enter hotel name"><br><br>
+            
+            <label>Hotel Address</label><br>
+            <input  type="text" formControlName="hotelAddress" placeholder="Enter hotel address"><br><br>
+            
+            <label>Mobile Number</label><br>
+            <input  type="text" formControlName="hotelMobile" placeholder="Enter hotel mobile number"><br><br>
+             
+            <label>Menu List<label><br>
+            <input type="text" formControlName="hotelMenu" placeholder="Special Menu"><br><br>
+            
+            <label>Room Available</label><br>
+            <input  type="text" formControlName="roomAvailable" placeholder="Enter room available"><br><br>
+            
+            <label>Enter Password</label><br>
+            <input  type="password" formControlName="userPass" placeholder="Enter password"><br><br>
+            
+        <label>
+            <input type="checkbox" formControlName="owenrCheck" required > Accept Tc & Cs
+        </label><br>
+
+        <div style="text-align: center;">
+            <button *ngIf="newRegistration" [disabled]="regitrationForm.invalid" class="btn" mat-raised-button color="accent"
+                (click)="submit()">Register</button>
+           
+                <button *ngIf="!newRegistration" [disabled]="regitrationForm.invalid" class="btn" mat-raised-button color="accent"
+                (click)="submit()">Update Hotel Details</button>
+        </div>
+    <!-- </form>
+</div> -->
