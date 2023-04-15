@@ -1,6 +1,7 @@
 .inp{
     width: 500px;
-  }
+    border-radius: 20px;  }
+  
   .main{
       border: 2px solid black;
       width: 30%;
@@ -8,5 +9,12 @@
       padding: 5px;
       background-color: rgb(159, 183, 222);
       text-align: center;
+      border-radius: 20px;
+      background-image: url("~src/assets/Images/pngtree-glass-morphim-effect-registration-banner-with-gradient-blue-image_934693.jpg");
   }
-  
+      
+  .main1{
+    background-color: tan;
+    height: 50rem;
+    
+  }

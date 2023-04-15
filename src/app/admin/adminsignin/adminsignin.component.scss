@@ -14,15 +14,26 @@
 //     background-color: green;
 //     padding: 5px 20px;
 // }
+
 .inp{
     width: 500px;
   }
   .main{
       border: 2px solid black;
-      width: 40%;
+      width: 30%;
       margin: auto;
       padding: 5px;
-      background-color: blanchedalmond;
+     
+      text-align: center;
+      margin: auto;
+      border-radius: 40px;
+      background-image: url("~src/assets/Images/5bd16e60ad82b-wallpaper-preview.jpg");
+      
+  }
+  .main2{
+
+    height: 50rem;
+    background-color:lightslategray;
   }
   
   

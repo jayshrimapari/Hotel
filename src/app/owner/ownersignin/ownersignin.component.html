@@ -1,19 +1,22 @@
+
 <button type="button" class="btn" mat-raised-button color="accent" (click)="OwnerSuccess()" routerLink="/owner/ownerlanding" >Back</button>
-<div class="main">
-    <h2 style="text-align: center;">Login here </h2>
-
-    <form [formGroup]="signInForm" autocomplete="off">
-        <label>Enter Name</label><br>
-        <input  type="text" formControlName="userName" placeholder="Enter your name"><br><br>
-
-      
-        <label>Enter Password<label><br>
-        <input type="password" formControlName="userPass" placeholder="Enter password"><br><br>
-
-        <button [disabled]="signInForm.invalid" class="btn" 
-          (click)="signInData(signInForm.value)"  >Sign in</button>
-          <div>Not a member?<a routerLink="/adminsignup" > Signup now  </a> </div>
-    <!-- </form>
-</div>
- -->
-
+<div class="main1">
+    
+    <div class="main">
+        <h2 style="text-align: center;">Login here </h2>
+    
+        <form [formGroup]="signInForm" autocomplete="off">
+          
+            <label>Enter Name</label><br>
+            <input  type="text" formControlName="userName" placeholder="Enter your name" style="border-radius: 20px;"><br><br>
+            
+            <label>Enter Password</label><br>
+            <input  type="password" formControlName="userPass" placeholder="Enter password" style="border-radius: 20px;"><br><br>
+            
+    
+            <button [disabled]="signInForm.invalid" class="btn" mat-raised-button color="accent"
+              (click)="signInData(signInForm.value)">Sign in</button>
+              <div>Not a member?<a routerLink="/adminsignup" > Signup now  </a> </div>
+        <!-- </form>
+    </div>
+    </div> -->

@@ -24,6 +24,7 @@ export class DataService {
    hotelJourney!: string;
   hotelId: any;
   hotelDetailsId: any;
+  hotelListByOwner: any;
   
 
   constructor(private httpclient:HttpClient) { }

@@ -15,7 +15,7 @@ export class OwnersuccessComponent {
   constructor(private dataservice: DataService, private router: Router) { }
 
   ngOnInit(): void {
-    this.getHotelDetails()
+     this.getHotelDetails()
   }
 
   getHotelDetails() {
@@ -30,7 +30,8 @@ export class OwnersuccessComponent {
 
   //deleteApi
  async deleteData(id: any) {
-  this.apidata =  await this.dataservice.deletHotelCall(id).toPromise()
+    await this.dataservice.deletHotelCall(id).toPromise()
+console.log(this.apidata,'delete api');
 
     //to refresh hotel list
     this.getHotelDetails()
@@ -39,20 +40,11 @@ export class OwnersuccessComponent {
 
  async editData(id: any) {
   this.dataservice.hotelDetailsId= id;
-   // this.dataservice.dataId = id;
-    //this.dataservice.newRegistration = false;
+   
     this.dataservice.hotelJourney='Edit'
     this.dataservice.HotelByIdApiData = await this.dataservice.getHotelDetailById(id).toPromise()
-    //this.dataservice.getApiData = await this.dataservice.getHotelCall().toPromise()
-    // this.dataservice.getHotelCall().subscribe((data) => {
-    //   this.dataservice.getApiData = data
-    //   console.log(data);
-    // })
-    //Edit Dtat by Id
-    // this.dataservice.getHotelCallById(id).subscribe((resp) => {
-    //   this.dataservice.getApiData = resp;
-    // })
-    this.router.navigateByUrl('/owner/ownerhotellist')
+    
+    this.router.navigateByUrl('/owner/ownerregistration')
 
   } 
   back(){
@@ -60,7 +52,7 @@ export class OwnersuccessComponent {
   }
   newRegistration(){
     this.dataservice.hotelJourney='New Registration'
-    this.router.navigateByUrl('/owner/ownerhotellist')
+    this.router.navigateByUrl('/owner/ownerregistration')
   }
   viewHotelList(){
     this.ShowHotelDetails=true;

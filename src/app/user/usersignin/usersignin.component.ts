@@ -56,5 +56,8 @@ export class UsersigninComponent {
       
     })
  }
+ userSuccess(){
+  this.router.navigateByUrl('/user/userlanding')
+ }
 
 }

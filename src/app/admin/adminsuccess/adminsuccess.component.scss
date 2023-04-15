@@ -1,0 +1,42 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .main{
+    background-image: url("~src/assets/Images/back.jpg");
+  }
+  .btn{
+    position: relative;
+    background-color:crimson;
+    margin-left: 20px;
+    padding: 8px 25px;
+    border: none;
+    color: white;
+ }
+  .btn3{
+    position: relative;
+    background-color:blue;
+    margin-left: 20px;
+    padding: 8px 25px;
+    border: none;
+    color: white;
+ }
+ .btn4{
+    position: relative;
+    background-color:rgb(179, 124, 7);
+    margin-left: 20px;
+    padding: 8px 25px;
+    border: none;
+    color: white;
+ }
+ 
+ 

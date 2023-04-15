@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { DataService } from 'src/app/data.service';
 
 @Component({
@@ -10,7 +11,7 @@ import { DataService } from 'src/app/data.service';
 export class UsersignupComponent {
   signUpForm!:FormGroup;
 
-  constructor(private fb:FormBuilder, private dataservice : DataService) { }
+  constructor(private fb:FormBuilder, private dataservice : DataService,private router:Router) { }
 
   ngOnInit(): void {
     this.formValidation()
@@ -33,6 +34,9 @@ export class UsersignupComponent {
     this.dataservice.postUserCall(data).subscribe((res)=>{
       console.log(res);   
   })
+}
+userSuccess(){
+  this.router.navigateByUrl('/user/userlanding')
 }
 }
 

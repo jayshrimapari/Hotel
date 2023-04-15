@@ -1,0 +1,41 @@
+<div class="main">
+    <button type="button" class="btn" mat-raised-button color="accent" (click)="back()" routerLink="/admin/adminlanding">Back</button>
+    <!-- <button type="button" class="btn3" mat-raised-button color="primary" (click)="newRegistration()">Registration</button> -->
+        <button type="button" class="btn4" mat-raised-button color="warn" (click)="viewHotelList()"  >ViewHotelList</button>
+    <div *ngIf="ShowHotelDetails">
+        <h1>Hotel List</h1>
+    <table border="2px black">
+        <thead *ngIf="flag">
+            <tr>
+                <th>Id</th>
+                <th>Owner Name</th>
+                <th>Hotel Name</th>
+                <th>Menu</th>
+                <th>Room Available</th>
+                <th>Hotel Address</th>
+                <th>Hotel Mobile</th>
+                <th>Delete</th>
+                <!-- <th>Edit</th> -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of apidata">
+                <td>{{data.id}}</td>
+                <td>{{data.userName}}</td>
+                <td>{{data.hotelName}}</td>
+                <td>{{data.hotelMenu}}</td>
+                <td>{{data.roomAvailable}}</td>
+                <td>{{data.hotelAddress}}</td>
+                <td>{{data.hotelMobile}}</td>
+                
+                <td><mat-icon (click)="deleteData(data.id)">delete</mat-icon></td>
+                <!-- <td><mat-icon (click)="editData(data.id)">edit</mat-icon></td> -->
+               
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    
+    
+    </div>
+    </div>

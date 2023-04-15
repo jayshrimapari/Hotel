@@ -29,8 +29,8 @@ studentDataFormValidations(){
       userPass:['',[Validators.required, Validators.maxLength(8)]],
       gender:['',[Validators.required]],
       userCheck:['',[Validators.requiredTrue]],
-      painting:['',[Validators.required]],
-      dancing:['',[Validators.required]],
+      // painting:['',[Validators.required]],
+      // dancing:['',[Validators.required]],
     
 })
   }
@@ -53,9 +53,11 @@ studentDataFormValidations(){
         console.log(data);
         
       })
+      this.signUpForm.reset();
+  this.router.navigateByUrl('/admin/adminsuccess')
 
 }
-OwnerSuccess(){
+adminSuccess(){
   this.router.navigateByUrl('/admin/adminlanding')
 }
 }

@@ -4,6 +4,7 @@ import { OwnerComponent } from './owner.component';
 import { OwnerfaillComponent } from './ownerfaill/ownerfaill.component';
 import { OwnerhotellistComponent } from './ownerhotellist/ownerhotellist.component';
 import { OwnerlandingComponent } from './ownerlanding/ownerlanding.component';
+import { OwnerregistrationComponent } from './ownerregistration/ownerregistration.component';
 import { OwnersigninComponent } from './ownersignin/ownersignin.component';
 import { OwnersignupComponent } from './ownersignup/ownersignup.component';
 import { OwnersuccessComponent } from './ownersuccess/ownersuccess.component';
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path:'ownersuccess',component:OwnersuccessComponent},
   {path:'ownerfaill',component:OwnerfaillComponent},
   {path:'ownerhotellist',component:OwnerhotellistComponent},
+  {path:'ownerregistration',component:OwnerregistrationComponent},
 ];
 
 @NgModule({

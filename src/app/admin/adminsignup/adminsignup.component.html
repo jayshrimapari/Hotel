@@ -1,9 +1,10 @@
-<button type="button" class="btn" mat-raised-button color="warn" (click)="OwnerSuccess()" routerLink="/owner/ownerlanding" >Back</button>
+<div class="main2">
+<button type="button" class="btn" mat-raised-button color="warn" (click)="adminSuccess()" routerLink="/owner/ownerlanding" >Back</button>
 <div class="main">
     <h2 style="text-align:center ;">Sign up to create an account</h2>
-    <form [formGroup]="signUpForm!" autocomplete="off" >
+    <form [formGroup]="signUpForm!"  >
                 <label for="">Name</label><br>
-            <input type="text" formControlName="userName" placeholder="Enter your name"><br>
+            <input type="text" formControlName="userName" placeholder="Enter your name" ><br>
             
             <span *ngIf="!signUpForm.get('userName')?.touched">Enter you Name</span>
             
@@ -23,7 +24,7 @@
                 <input  type="text" formControlName="userEmail" placeholder="Enter your email"><br><br>
                 
                 <label>Enter Password<label><br>
-                <input type="password" formControlName="userPass" placeholder="Enter password"><br><br>
+                <input type="password" formControlName="userPass" placeholder="Enter password" style="border-radius: 10px;"><br><br>
                 
         
     
@@ -32,15 +33,15 @@
             <label for="" >Gender</label><br>
             <input type="radio" formControlName="gender" value="male">Male<br>
             <input type="radio" formControlName="gender" value="female">Female<br><br>
-            <label for="">Hobbies</label><br>
+            <!-- <label for="">Hobbies</label><br>
             <input type="checkbox" formControlName="painting" >Painting<br>
-            <input type="checkbox"  formControlName="dancing">Dancing<br>
-            <input type="checkbox" formControlName="userCheck">Please accept terms and conditions <br>
+            <input type="checkbox"  formControlName="dancing">Dancing<br>-->
+            <input type="checkbox" formControlName="userCheck">Please accept terms and conditions <br> 
 
             <button [disabled]="!signUpForm.valid" class="btn" (click)="submitFormData(signUpForm.value)">Submit</button> 
             <div style="text-align: center;">Already have member?<a routerLink="/admin/adminsignin"> Sign in here </a> </div>
          
     
-     <!-- </form>
-</div>     -->
-
+ <!-- </form>
+</div>     
+  -->

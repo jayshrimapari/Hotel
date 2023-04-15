@@ -13,6 +13,7 @@ import { OwnerfaillComponent } from './ownerfaill/ownerfaill.component';
 import { OwnerhotellistComponent } from './ownerhotellist/ownerhotellist.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { OwnerregistrationComponent } from './ownerregistration/ownerregistration.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { MatButtonModule } from '@angular/material/button';
     OwnersignupComponent,
     OwnersuccessComponent,
     OwnerfaillComponent,
-    OwnerhotellistComponent
+    OwnerhotellistComponent,
+    OwnerregistrationComponent
   ],
   imports: [
     CommonModule,

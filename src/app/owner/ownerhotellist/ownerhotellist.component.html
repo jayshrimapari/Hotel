@@ -1,3 +1,4 @@
+<!-- <div class="main1">
 <button type="button" class="btn" mat-raised-button color="accent" (click)="OwnerSuccess()" routerLink="/owner/ownerlanding" >Back</button>
 <div class="main">
     <h1 *ngIf="newRegistration" style="text-align:center ;"><b>Register Here</b></h1>
@@ -23,10 +24,10 @@
             <input  type="text" formControlName="roomAvailable" placeholder="Enter room available"><br><br>
             
             <label>Enter Password</label><br>
-            <input  type="password" formControlName="userPass" placeholder="Enter password"><br><br>
+            <input  type="password" formControlName="userPass" placeholder="Enter password" style="border-radius: 20px;"><br><br>
             
         <label>
-            <input type="checkbox" formControlName="owenrCheck" required > Accept Tc & Cs
+            <input type="checkbox" formControlName="owenrCheck" required > Accept terms & condition
         </label><br>
 
         <div style="text-align: center;">
@@ -36,5 +37,6 @@
                 <button *ngIf="!newRegistration" [disabled]="regitrationForm.invalid" class="btn" mat-raised-button color="accent"
                 (click)="submit()">Update Hotel Details</button>
         </div>
-    <!-- </form>
+    
+    </form>
 </div> -->
